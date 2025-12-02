@@ -8,8 +8,29 @@ Fully functional Wazuh 4.14.1 SIEM laboratory for learning detection & response.
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ## Topology
-![Lab Topology](topology.png)
-*(Coming soon)*
+```text
+                          Virtual Lab Network
+                        192.168.56.0/24 (Host-Only)
+-------------------------------------------------------------------------
+                                      |
+                  .-------------------|--------------------.
+                  |                   |                    |
+                  |                   |                    |
+          [Wazuh Manager]      [Kali Attacker]      [Ubuntu Victim]
+          192.168.56.101       192.168.56.10x       192.168.56.102
+          All-in-One 4.14.1      (2025.x)            24.04 LTS
+                               (Attack Tools)        (Wazuh Agent)
+                  |                   |                    |
+                  '-------------------|--------------------'
+                                      |
+                               [Windows Victim]
+                                (Planned)
+                               192.168.56.103
+                               (Wazuh Agent)
+                                      |
+                               [NAT Network]
+                            (Internet for updates/attacks)
+```
 
 ## Features
 - Wazuh All-in-One deployment
