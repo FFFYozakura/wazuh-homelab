@@ -40,7 +40,7 @@ Fully functional Wazuh 4.14.1 SIEM laboratory for learning detection & response.
 ## Screenshots
 ![Dashboard](screenshots/IMG_20251202_213258_450.jpg)
 
-![Security Events](screenshots/events.png)
+![Security Events](screenshots/photo_2025-12-02_23-21-23.jpg)
 
 
 ## Quick Start (VirtualBox)
