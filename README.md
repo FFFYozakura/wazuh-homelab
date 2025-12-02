@@ -33,7 +33,7 @@ sudo WAZUH_MANAGER="192.168.56.101" dpkg -i wazuh-agent.deb
 sudo systemctl enable --now wazuh-agent
 ```
 4.Attack from Kali → enjoy real-time alerts!
-FUTURE PLANS
+## FUTURE PLANS
 Custom Sigma rules for web-attacks
 ModSecurity + NGINX WAF
 Suricata NIDS integration
