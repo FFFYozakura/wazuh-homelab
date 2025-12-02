@@ -17,7 +17,7 @@ Fully functional Wazuh 4.14.1 SIEM laboratory for learning detection & response.
 - Detection of port scanning, brute-force, web attacks, FIM, rootkits
 
 ## Screenshots
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/IMG_20251202_213258_450.jpg)
 ![Agents](screenshots/agents.png)
 ![Security Events](screenshots/events.png)
 *(more coming soon)*
